@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* inicio de encabezado */
+
+.encabezado{
+    background-color: #3CC0C6;
+    height: 100px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    align-items: center;
+}
+
+.txtencabe h2{
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 15px;
+}
+
+/* fin de encabezado */
+
+/* inicio de portada */
+
+.portada{
+    background-color: orange;
+    height: 250px;
+}
