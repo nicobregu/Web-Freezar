@@ -256,21 +256,18 @@
   text-decoration: none;
 }
 
+.articlefoot2 {
+  text-align: center;
+}
 .articlefoot2 h3 {
   padding: 15px;
   color: white;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 25px;
-  text-align: center;
 }
-.articlefoot2 a {
-  text-decoration: none;
-}
-.articlefoot2 i {
+.articlefoot2 .fa-instagram {
   color: white;
-  display: flex;
-  justify-content: center;
-  font-size: 150px;
+  font-size: 120px;
 }
 
 .asidefoot1 {
