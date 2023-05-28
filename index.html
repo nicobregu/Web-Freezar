@@ -7,11 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Freezar-Frutas Congeladas</title>
 </head>
 
 <body>
+
+    <!-- inicio boton wsp -->
+    <a href="https://api.whatsapp.com/send?phone=3875383291&text=Te comunicaste con FREEZAR - Frutas Congeladas. Dejanos la consulta que quieras realizar. En breve te responderemos"
+        class="btn-wsp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <!-- cierre boton wsp -->
 
     <!-- inicio de encabezado -->
     <header>
@@ -20,128 +28,199 @@
                 <img src="./img/logo.png" height="80px" alt="">
             </div>
             <div class="txtencabe">
-                <h2>FRUTAS CONGELADAS</h2>
+                <h2><strong>FRUTAS CONGELADAS</strong></h2>
             </div>
         </div>
     </header>
     <!-- fin de encabezado -->
 
     <!-- inicio de carousel -->
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
+    <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-interval="4000">
                 <img src="/img/carousel/1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>First slide label</h2>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-interval="4000">
                 <img src="/img/carousel/2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
             </div>
             <div class="carousel-item">
                 <img src="/img/carousel/3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
             </div>
             <div class="carousel-item">
                 <img src="/img/carousel/4.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
             </div>
             <div class="carousel-item">
-                <img src="/img/carousel/5.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                <img src="/img/carousel/5.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/img/carousel/6.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/img/carousel/7.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/img/carousel/8.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/img/carousel/8.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/img/carousel/9.png" class="d-block w-100" alt="...">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </button>
     </div>
     <!-- cierre de carousel -->
 
-<!-- inicio de seccion1 -->
-<section class="seccion1">
-    <div class="row">
-        <article class="article1 col-md-6"></article>
-        <aside class="aside1 col-md-6">
-            <h2>¿Por qué consumir frutas congeladas?</h2>
-            <h5>Consumir frutas congeladas ofrece una serie de beneficios. Al ser congeladas rápidamente, las frutas conservan la mayoría de sus nutrientes, como vitaminas y antioxidantes. Además, están disponibles durante todo el año, lo que garantiza su disponibilidad incluso fuera de temporada. Las frutas congeladas tienen una mayor durabilidad y son convenientes, ya que se pueden almacenar y utilizar según sea necesario. Son versátiles en la cocina, añadiéndose fácilmente a batidos, postres y también pueden ser utilizadas como snacks en cualquier momento del día. Además, su textura crujiente y frescura se mantienen por un largo período de tiempo.</h5>
-        </aside>
+    <!-- seccion Bienvenidos -->
+    <div class="txtbienvenidos">
+        <h2><strong>¡Bienvenidos a FREEZAR!</strong></h2>
+        <h4>Sabores naturales, frescura congelada</h4>
     </div>
-</section>
-<!-- cierre de seccion1 -->
+    <!-- seccion Bienvenidos -->
 
-<!-- inicio de seccion2 -->
-<section class="seccion2">
-    <div class="row">
-        <article class="article2 col-md-6">
-            <h2>¿Qué es el método IQF?</h2>
-            <h5>El objetivo del método <strong>IQF</strong> es congelar las frutas de manera rápida y eficiente para mantener su calidad, sabor y textura. Al congelar las frutas individualmente, se evita la formación de grandes cristales de hielo, lo que puede dañar la estructura celular y afectar la calidad del producto final. Además, al congelar las frutas de forma individual, se evita que se aglutinen entre sí, lo que facilita su manejo y dosificación.</h5>
-            <h5>Una vez que las frutas han sido congeladas de forma individual, se pueden empacar en bolsas o recipientes y almacenar a temperaturas aún más bajas, lo que permite una mayor vida útil sin que se produzca una pérdida significativa de calidad. Cuando se desean utilizar, las frutas congeladas se pueden sacar directamente del envase y utilizar según sea necesario, sin necesidad de descongelar todo el lote.</h5>
-        </article>
-        <aside class="aside2 col-md-6"></aside>
-    </div>
-</section>
-<!-- cierre de seccion2 -->
+    <!-- inicio de main -->
+    <main class="main">
 
-<!-- inicio de seccion3 -->
-<section class="seccion3">
-    <div class="row">
-        <article class="article3 col-md-6"></article>
-        <aside class="aside3 col-md-6">
-            <h2>Disponibilidad y conveniencia</h2>
-            <h5>La disponibilidad de las frutas congeladas son aspectos destacados de su consumo. A diferencia de las frutas frescas, que pueden tener una temporada limitada, las frutas congeladas están disponibles durante todo el año. Esto significa que puedes disfrutar de tus frutas favoritas sin importar la estación</h5>
-            <h5>Además, las frutas congeladas son fáciles de almacenar y usar según sea necesario, lo que las hace convenientes para preparar comidas rápidas y saludables.</h5>
-        </aside>
-    </div>
-</section>
-<!-- cierre de seccion3 -->
+        <!-- inicio de seccion1 -->
+        <section class="seccion1">
+            <div class="row">
+                <article class="article1 col-md-6"></article>
+                <aside class="aside1 col-md-6">
+                    <h2><strong>¿Por qué consumir frutas congeladas?</strong></h2>
+                    <h5>Consumir frutas congeladas ofrece una serie de beneficios. Al ser congeladas rápidamente, las
+                        frutas
+                        conservan la mayoría de sus nutrientes, como vitaminas y antioxidantes. Además, están
+                        disponibles
+                        durante todo el año, lo que garantiza su disponibilidad incluso fuera de temporada. Las frutas
+                        congeladas tienen una mayor durabilidad y son convenientes, ya que se pueden almacenar y
+                        utilizar
+                        según sea necesario. Son versátiles en la cocina, añadiéndose fácilmente a batidos, postres y
+                        también pueden ser utilizadas como snacks en cualquier momento del día. Además, su textura
+                        crujiente
+                        y frescura se mantienen por un largo período de tiempo.</h5>
+                </aside>
+            </div>
+        </section>
+        <!-- cierre de seccion1 -->
 
-<!-- inicio de seccion4 -->
-<section class="seccion4">
-    <div class="row">
-        <article class="article4 col-md-6">
-            <h2>Mayor durabilidad</h2>
-            <h5>Las frutas congeladas tienen una vida útil más larga en comparación con las frutas frescas. Podrás almacenarlas en el freezer por períodos prolongados sin que pierdan su calidad ni sus propiedades nutricionales. Esto reduce el desperdicio de alimentos y te permite tener siempre a mano frutas disponibles para su consumo</h5>
-        </article>
-        <aside class="aside4 col-md-6"></aside>
-    </div>
-</section>
-<!-- cierre de seccion4 -->
+        <!-- inicio de seccion2 -->
+        <section class="seccion2">
+            <div class="row">
+                <article class="article2 col-md-6">
+                    <h2><strong>¿Qué es el método IQF?</strong></h2>
+                    <h5>El objetivo del método <strong>IQF</strong> es congelar las frutas de manera rápida y eficiente
+                        para
+                        mantener su calidad, sabor y textura. Al congelar las frutas individualmente, se evita la
+                        formación
+                        de grandes cristales de hielo, lo que puede dañar la estructura celular y afectar la calidad del
+                        producto final. Además, al congelar las frutas de forma individual, se evita que se aglutinen
+                        entre
+                        sí, lo que facilita su manejo y dosificación.</h5>
+                    <h5>Una vez que las frutas han sido congeladas de forma individual, se pueden empacar en bolsas o
+                        recipientes y almacenar a temperaturas aún más bajas, lo que permite una mayor vida útil sin que
+                        se
+                        produzca una pérdida significativa de calidad. Cuando se desean utilizar, las frutas congeladas
+                        se
+                        pueden sacar directamente del envase y utilizar según sea necesario, sin necesidad de
+                        descongelar
+                        todo el lote.</h5>
+                </article>
+                <aside class="aside2 col-md-6"></aside>
+            </div>
+        </section>
+        <!-- cierre de seccion2 -->
 
-<!-- inicio de seccion5 -->
-<section class="seccion5">
-    <div class="row">
-        <article class="article5 col-md-6"></article>
-        <aside class="aside5 col-md-6">
-            <h2>Versatilidad culinaria</h2>
-            <h5></h5>
-        </aside>
-    </div>
-</section>
-<!-- cierre de seccion5 -->
+        <!-- inicio de seccion3 -->
+        <section class="seccion3">
+            <div class="row">
+                <article class="article3 col-md-6"></article>
+                <aside class="aside3 col-md-6">
+                    <h2><strong>Disponibilidad y conveniencia</strong></h2>
+                    <h5>La disponibilidad de las frutas congeladas son aspectos destacados de su consumo. A diferencia
+                        de
+                        las frutas frescas, que pueden tener una temporada limitada, las frutas congeladas están
+                        disponibles
+                        durante todo el año. Esto significa que puedes disfrutar de tus frutas favoritas sin importar la
+                        estación</h5>
+                    <h5>Además, las frutas congeladas son fáciles de almacenar y usar según sea necesario, lo que las
+                        hace
+                        convenientes para preparar comidas rápidas y saludables.</h5>
+                </aside>
+            </div>
+        </section>
+        <!-- cierre de seccion3 -->
+
+        <!-- inicio de seccion4 -->
+        <section class="seccion4">
+            <div class="row">
+                <article class="article4 col-md-6">
+                    <h2><strong>Mayor durabilidad</strong></h2>
+                    <h5>Las frutas congeladas tienen una vida útil más larga en comparación con las frutas frescas.
+                        Podrás
+                        almacenarlas en el freezer por períodos prolongados sin que pierdan su calidad ni sus
+                        propiedades
+                        nutricionales. Esto reduce el desperdicio de alimentos y te permite tener siempre a mano frutas
+                        disponibles para su consumo</h5>
+                </article>
+                <aside class="aside4 col-md-6"></aside>
+            </div>
+        </section>
+        <!-- cierre de seccion4 -->
+
+        <!-- inicio de seccion5 -->
+        <section class="seccion5">
+            <div class="row">
+                <article class="article5 col-md-6"></article>
+                <aside class="aside5 col-md-6">
+                    <h2><strong>Versatilidad culinaria</strong></h2>
+                    <h5> Las frutas congeladas son muy versátiles en la cocina. Podrás utilizarlas en batidos,
+                        smoothies,
+                        postres, yogures, ensaladas y muchas otras preparaciones. Además, al estar ya cortadas o en
+                        porciones individuales, facilitan su incorporación en recetas y te ahorran tiempo en la
+                        preparación
+                    </h5>
+                </aside>
+            </div>
+        </section>
+        <!-- cierre de seccion5 -->
+
+    </main>
+    <!-- cierre de main -->
+
+    <!-- inicio de footer -->
+    <section class="footer">
+        <div class="row">
+            <article class="articlefoot1 col-md-6">
+                <h3><b>CONTÁCTANOS</b></h3>
+                    <div class="iconoscontac">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <ul class="listacontac">
+                        <li>WHATSAPP: 3875383291</li>
+                        <li>UBICACION: MARTIN GUERRICO N° 490 / SALTA - CAPITAL</li>
+                        <li>E-MAIL: freezaralimentosok@gmail.com</li>
+                    </ul>
+            </article>
+            <article class="articlefoot2 col-md-6">
+                <h3><b>SEGUINOS</b></h3>
+                <a href="https://www.instagram.com/freezarok/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </article>
+            <!-- <aside class="asidefoot1 col-md-3"></aside>
+            <aside class="asidefoot2 col-md-3"></aside> -->
+        </div>
+    </section>
 
 
 
