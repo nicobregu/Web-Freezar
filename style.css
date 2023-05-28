@@ -45,6 +45,8 @@
   font-family: "Roboto Condensed", sans-serif;
   padding-right: 15px;
   padding-top: 12px;
+  display: flex;
+  justify-content: end;
 }
 
 .carousel-inner {
@@ -217,7 +219,7 @@
 
 .footer {
   height: auto;
-  background-color: #E84855;
+  background-color: #3CC0C6;
   padding-left: 15px;
   padding-right: 15px;
 }
