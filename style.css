@@ -28,25 +28,25 @@
   background: white;
 }
 
-.encabezado {
+.navbar {
   background-color: #3CC0C6;
-  height: 100px;
-  padding-left: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: auto !important;
+  padding-top: 5px;
 }
-.encabezado .logo {
-  align-items: center;
-}
-.encabezado .txtencabe h2 {
-  color: white;
+.navbar a {
   font-size: 22px;
+  color: white;
+  text-decoration: none;
   font-family: "Roboto Condensed", sans-serif;
-  padding-right: 15px;
-  padding-top: 12px;
-  display: flex;
-  justify-content: end;
+  padding-top: 10px;
+  transition: color 0.3s linear 0.2s;
+}
+.navbar a:hover {
+  color: white !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
 }
 
 .carousel-inner {
@@ -277,6 +277,87 @@
 .asidefoot2 {
   background-color: orange;
   height: 450px;
+}
+
+@media (max-width: 480px) {
+  .imgfrutillas {
+    width: 100%;
+  }
+  .imgmango {
+    width: 100%;
+  }
+  .imgmelon {
+    width: 100%;
+  }
+  .imgarandanos {
+    width: 100%;
+  }
+  .imgsandia {
+    width: 100%;
+  }
+  .imgdurazno {
+    width: 100%;
+  }
+  .imgframbuesas {
+    width: 100%;
+  }
+  .imgpera {
+    width: 100%;
+  }
+  .imgzarzamora {
+    width: 100%;
+  }
+  .imgtropical {
+    width: 100%;
+  }
+  .imgpatagonico {
+    width: 100%;
+  }
+  .imgtucumano {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) {
+  .imgsfrutas {
+    padding-left: 125px;
+    align-items: center;
+  }
+  .imgfrutillas {
+    width: 80%;
+  }
+  .imgmango {
+    width: 80%;
+  }
+  .imgmelon {
+    width: 80%;
+  }
+  .imgarandanos {
+    width: 80%;
+  }
+  .imgsandia {
+    width: 80%;
+  }
+  .imgdurazno {
+    width: 80%;
+  }
+  .imgframbuesas {
+    width: 80%;
+  }
+  .imgpera {
+    width: 80%;
+  }
+  .imgzarzamora {
+    width: 80%;
+  }
+  .imgtropical {
+    width: 80%;
+  }
+  .imgpatagonico {
+    width: 80%;
+  }
+  .imgtucumano {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

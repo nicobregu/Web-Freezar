@@ -37,40 +37,68 @@
     }
 }
 
+// barra de navegacion // 
+
+.navbar {
+    background-color: #3CC0C6;
+    height: auto !important;
+    padding-top: 5px;
+
+    a {
+        font-size: 22px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto Condensed', sans-serif;
+        padding-top: 10px;
+        transition: color 0.3s linear 0.2s;
+
+        &:hover {
+            color: #ffff !important;
+        }
+    }
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+// barra de navegacion //
+
+
 // boton de whatsapp //
 
 // inicio de encabezado //
 
-.encabezado {
-    background-color: #3CC0C6;
-    height: 100px;
-    padding-left: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+// .encabezado {
+//     background-color: #3CC0C6;
+//     height: 100px;
+//     padding-left: 15px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
 
-    .logo {
-        align-items: center;
-    }
+//     .logo {
+//         align-items: center;
+//     }
 
-    .txtencabe {
-        h2 {
-            color: white;
-            font-size: 22px;
-            font-family: 'Roboto Condensed', sans-serif;
-            padding-right: 15px;
-            padding-top: 12px;
-            display: flex;
-            justify-content: end;
-        }
-    }
-}
+//     .txtencabe {
+//         h2 {
+//             color: white;
+//             font-size: 22px;
+//             font-family: 'Roboto Condensed', sans-serif;
+//             padding-right: 15px;
+//             padding-top: 12px;
+//             display: flex;
+//             justify-content: end;
+//         }
+//     }
+// }
 
 // fin de encabezado //
 
 // inicio de carousel //
 
-.carousel-inner{
+.carousel-inner {
     height: auto;
 }
 
@@ -91,7 +119,7 @@
     background-color: #3CC0C6;
     padding: 4px;
 
-    h2{
+    h2 {
         font-size: 22px;
         background-color: #3CC0C6;
         color: white;
@@ -100,7 +128,7 @@
         font-family: 'Roboto Condensed', sans-serif;
     }
 
-    h4{
+    h4 {
         font-size: 18px;
         color: white;
         padding-bottom: 25px;
@@ -109,7 +137,7 @@
     }
 }
 
-.main{
+.main {
     height: auto;
     background-color: white;
 }
@@ -291,7 +319,7 @@
 
 .articlefoot1 {
 
-    h3{
+    h3 {
         padding: 15px;
         color: white;
         font-family: 'Roboto Condensed', sans-serif;
@@ -350,3 +378,110 @@
     background-color: orange;
     height: 450px;
 }
+
+// inicio de pagina frutas //
+
+@media (max-width:480px) {
+    .imgfrutillas {
+        width: 100%;
+    }
+    .imgmango {
+        width: 100%;
+    }
+
+    .imgmelon {
+        width: 100%;
+    }
+
+    .imgarandanos {
+        width: 100%;
+    }
+
+    .imgsandia {
+        width: 100%;
+    }
+
+    .imgdurazno {
+        width: 100%;
+    }
+
+    .imgframbuesas {
+        width: 100%;
+    }
+
+    .imgpera {
+        width: 100%;
+    }
+
+    .imgzarzamora {
+        width: 100%;
+    }
+
+    .imgtropical {
+        width: 100%;
+    }
+
+    .imgpatagonico {
+        width: 100%;
+    }
+
+    .imgtucumano {
+        width: 100%;
+    }
+}
+
+@media (min-width:481px) {
+
+    .imgsfrutas{
+        padding-left: 125px;
+        align-items: center;
+    }
+    .imgfrutillas {
+        width: 80%;
+    }
+
+    .imgmango {
+        width: 80%;
+    }
+
+    .imgmelon {
+        width: 80%;
+    }
+
+    .imgarandanos {
+        width: 80%;
+    }
+
+    .imgsandia {
+        width: 80%;
+    }
+
+    .imgdurazno {
+        width: 80%;
+    }
+
+    .imgframbuesas {
+        width: 80%;
+    }
+
+    .imgpera {
+        width: 80%;
+    }
+
+    .imgzarzamora {
+        width: 80%;
+    }
+
+    .imgtropical {
+        width: 80%;
+    }
+
+    .imgpatagonico {
+        width: 80%;
+    }
+
+    .imgtucumano {
+        width: 80%;
+    }
+}
+
