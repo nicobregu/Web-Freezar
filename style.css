@@ -30,7 +30,7 @@
 
 .navbar {
   background-color: #3CC0C6;
-  height: 80px !important;
+  height: auto !important;
   padding-top: 5px;
 }
 .navbar a {
