@@ -30,7 +30,7 @@
 
 .navbar {
   background-color: #3CC0C6;
-  height: auto !important;
+  height: 80px !important;
   padding-top: 5px;
 }
 .navbar a {
@@ -47,6 +47,10 @@
 
 .navbar-collapse {
   justify-content: flex-end;
+}
+
+.logo {
+  padding-bottom: 15px;
 }
 
 .carousel-inner {
@@ -319,7 +323,7 @@
 }
 @media (min-width: 481px) {
   .imgsfrutas {
-    padding-left: 125px;
+    padding-left: 145px;
     align-items: center;
   }
   .imgfrutillas {
